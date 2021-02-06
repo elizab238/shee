@@ -6,7 +6,7 @@ menuToggler.addEventListener("click", () => {
     body.classList.toggle("open");
 })
 
-navLinks.forEach(Link => {
+navLinks.forEach(link => {
     link.addEventListener("click", () => {
         body.classList.toggle("open");
     });
